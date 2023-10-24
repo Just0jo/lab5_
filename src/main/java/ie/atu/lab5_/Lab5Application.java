@@ -13,6 +13,6 @@ public class Lab5Application {
     public static void main(String[] args) { SpringApplication.run(Lab5Application.class, args);
     }
     @Bean
-    public RestTemplate restTemplate(){return  new RestTemplate();}
+    public RestTemplate restTemplate(){return new RestTemplate();}
 
 }
